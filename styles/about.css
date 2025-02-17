@@ -1,0 +1,119 @@
+/* Team Section */
+.meet-the-team {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #d111d14d;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.about-intro {
+    text-align: center;
+    color: rgb(14, 13, 13);
+    padding: 0.5rem 1rem;
+    
+}
+
+.our-story {
+    text-align: center;
+    color: rgb(24, 21, 21);
+    padding: 0.5rem 1rem;
+}
+
+.team-member {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.our-values {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member p {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #5a2c2c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+.social-media a {
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 20px;
+    height: auto;
+    transition: opacity 0.3s;
+  }
+  
+  .social-media a:hover img {
+    opacity: 0.7;
+  }
+  
+  /* Remove underlines from social media links */
+  .site-footer .social-media a {
+    text-decoration: none;
+  }
+  
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
